@@ -14,20 +14,24 @@
                 <img id="logo" src="logo.png" alt="logo da netflix">
             </header>
             <div id="container2">
-                <div id="overlay">
-                    <div id="content">
+                <div id="content">
+                        <div id="overlay">
                             <h2>Entrar</h2>
-                            <input type="text" placeholder="Email ou número de telefone">
-                            <input type="password" placeholder="Senha">
-                            <button>Entrar</button>
-                            <p>OU</p>
-                            <button id="code">Usar um codigo de acesso</button>
-                            <a>Esqueceu sua senha?</a>
-                            <div id="remember"> 
-                                <i class="fa-solid fa-square" style="color: #ffffff;"></i><h3>Lembre-se de mim</h3>
-                            </div>
-                            <p>Novo por aqui? <a href="#">Assine agora.</a></p>
-                    </div>
+                                <form>
+                                    <input type="text" id="email" placeholder="Email ou número de telefone">
+                                    <input type="password" id="password" placeholder="Senha">
+                                    <input type="submit" id="entrar" value="Entrar">
+                                    <p>OU</p>
+                                    <input type="submit" id="code" value="Usar um codigo de acesso">
+                                    <a>Esqueceu sua senha?</a>
+                                </form>
+                                <div id="remember">
+                                    <input type="checkbox" id="remember" name="remember" />
+                                    <label for="remember">Lembre-se de mim</label>
+                                </div>
+                                <p>Novo por aqui? <a href="#">Assine agora.</a></p>
+                    
+                        </div>
                 </div>
             </div>
         </div>
